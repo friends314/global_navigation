@@ -11,12 +11,17 @@
 	width: 588px;
 }
 
-#gnav li {
+#gnav .nav {
 	float: left;
 	border-left: 1px solid #259891;
 }
 
-#gnav li a {
+#gnav .nav.contact {
+	float: left;
+	border-right: 1px solid #259891;
+}
+
+#gnav .nav a {
   display: block;
   padding-top: 4px;
   width: 97px;
@@ -39,12 +44,12 @@
 	<h2>項目を横並びにし、ボーダーで区切る</h2>
 	<nav>
 	  <ul id="gnav">
-	    <li><a href="#">保育方針<span>Concept</span></a></li>
-	    <li><a href="#">園の生活<span>DailyProgram</span></a></li>
-	    <li><a href="#">お知らせ<span>News</span></a></li>
-	    <li><a href="#">園の紹介<span>Garden</span></a></li>
-	    <li><a href="#">運営者情報<span>Admin</span></a></li>
-	    <li><a href="#">お問い合わせ<span>Contact</span></a></li>
+	    <li class="nav concept"><a href="#">保育方針<span>Concept</span></a></li>
+	    <li class="nav dailyprogram"><a href="#">園の生活<span>DailyProgram</span></a></li>
+	    <li class="nav news"><a href="#">お知らせ<span>News</span></a></li>
+	    <li class="nav garden"><a href="#">園の紹介<span>Garden</span></a></li>
+	    <li class="nav admin"><a href="#">運営者情報<span>Admin</span></a></li>
+	    <li class="nav contact"><a href="#">お問い合わせ<span>Contact</span></a></li>
 	  </ul>
 	</nav>
 </article>
