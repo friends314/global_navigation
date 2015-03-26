@@ -7,6 +7,7 @@ li {
 }
 
 #content {
+	float: left;
 	margin-bottom: 35px;
 }
 
