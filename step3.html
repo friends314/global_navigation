@@ -2,13 +2,41 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>HTMLでマークアップ｜Webサイトのメニューを作成 - HTML・CSS編</title>
+<title>CSSでスタイル設定｜Webサイトのメニューを作成 - HTML・CSS編</title>
 <link href="style.css" rel="stylesheet">
+<style>
+/* グローバルナビゲーション */
+#gnav {
+	float: left;
+	width: 588px;
+}
+
+#gnav li {
+	float: left;
+	border-left: 1px solid #259891;
+}
+
+#gnav li a {
+  display: block;
+  padding-top: 4px;
+  width: 97px;
+  height: 38px;
+  font-size: 15px;
+  text-align:center;
+}
+
+#gnav li a span {
+  display: block;
+  line-height: 1.5;
+  font-size: 13px;
+}
+</style>
 </head>
+
 <body>
 <h1><a href="index.html">動作デモ</a></h1>
 <article id="content">
-	<h2>手順1.HTMLでマークアップ</h2>
+	<h2>CSSでスタイル設定②</h2>
 	<nav>
 	  <ul id="gnav">
 	    <li><a href="#">保育方針<span>Concept</span></a></li>
@@ -21,8 +49,7 @@
 	</nav>
 </article>
 <ul id="permalink" class="cf">
-	<li class="back"><a href="index.html">&laquo;HTMLでマークアップ</a></li>
-	<li class="next"><a href="step2.html">手順2.CSSで項目やテキストの間隔を調整&raquo;</a></li>
+	<li class="back"><a href="step2.html">&laquo;手順2.CSSで項目やテキストの間隔を調整</a></li>
 </ul>
 </body>
 </html>
