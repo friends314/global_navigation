@@ -1,0 +1,36 @@
+@charset "utf-8";
+/**
+ * 共通スタイル
+ *==========================*/
+ h1 a {
+  color: #333;
+  text-decoration: none;
+ }
+ 
+li {
+	list-style-type: none;
+}
+
+#content {
+	float: left;
+	margin-bottom: 35px;
+}
+
+#permalink {
+	width: 680px;
+	clear: both;
+}
+
+.back {
+	float: left;
+}
+
+.next {
+	float: right;
+}
+
+.cf:after {
+	display: block;
+	content: "";
+	clear: both;
+}
